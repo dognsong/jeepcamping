@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JEEP CAMPING</title>
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediascreen.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script>
+        /*PC웹페이지에 적용할부분*/ 	
+        var ua = window.navigator.userAgent.toLowerCase();
+        var mobileWindowWidth
+        if(/iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) || /ipad/.test(ua) || /windows ce/.test(ua)) {
+            document.location.replace("/mobile/index.html");
+        }
+    </script>
+    <script src="/js/mainmenu.js"></script>
+    <script src="/js/visualEffect.js"></script>
+    
+</head>
+<body>
+    <!-- 상단영역 시작 -->
+    <div id="header_wrap">
+        <header>
+            <h1 id="logo"><a href="#;"><img src="/images/logo.png" alt="지프캠핑"></a></h1>
+            <nav id="loginmenu">
+                <h2 class="hidden">로그인메뉴</h2>
+                <ul id="loginmenu_list">
+                    <li><a href="#;">Sign up</a></li>
+                    <li><a href="#;">Log In</a></li>
+                    <li><a href="#;"><img src="/images/bag_icon.png" alt="장바구니"></a></li>
+                </ul>
+            </nav>
+            <nav id="mainmenu">
+                <h2 id="mainmenu_icon"><a href="#;"><img src="/images/menu_icon.png" alt="메인메뉴"></a></h2>
+                <div id="mainmenu_wrap">
+                    <span id="mainmenu_close"><a href="#;"><img src="/images/close_btn.png" alt="메뉴닫기"></a></span>
+                    <ul id="mainmenu_list">
+                        <li><a href="#;">TENTS & TARPS</a>
+                            <ul class="submenu_list">
+                                <li><a href="#;">TENTS</a></li>
+                                <li><a href="#;">TARPS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#;">FURNITURE</a>
+                            <ul class="submenu_list">
+                                <li><a href="#;">TABLE</a></li>
+                                <li><a href="#;">CHAIR</a></li>
+                                <li><a href="#;">COURT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#;">BBQ & COOKWARE</a>
+                            <ul class="submenu_list">
+                                <li><a href="#;">BRAZIER</a></li>
+                                <li><a href="#;">COOKWARE</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#;">SLEEPING BAGS</a></li>
+                        <li><a href="#;">CAMPING ACCESSORIES</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- 상단영역 끝 -->
+    <!-- 비주얼영역 시작 -->
+    <div id="visual_wrap">
+        <ul id="visual_list">
+            <li id="visual_img01"></li>
+            <li id="visual_img02"></li>
+            <li id="visual_img03"></li>
+            <li id="visual_img04"></li>
+        </ul>
+        <div id="visual_inner">
+            <ul id="visual_tbox_list">
+                <li>
+                    <p class="visual_title">Seoraksan</p>
+                    <p class="visual_location">Inje-gun Gangwon, South Korea</p>
+                    <p class="visual_text">Weather fluctuation is extreme, and is famous for its sunrise and integrity and strong winds and low temperature of Pinus pumila. because of a carpet throughout Turtle National Park, East Sea is low.Can overlook the whole.</p>
+                </li>
+                <li>
+                    <p class="visual_title">Schwarzwald</p>
+                    <p class="visual_location">Baden Wurttemberg, Germany</p>
+                    <p class="visual_text">Schwarz means black and Wald means forest. It is also called the Black Forest or the Black Forest. The forest was so dense that it was so dense that it looked black from a distance that the name was given.</p>
+                </li>
+                <li>
+                    <p class="visual_title">Kirkjufellsfoss</p>
+                    <p class="visual_location">Grundarfjorour, Iceland</p>
+                    <p class="visual_text">Kirkjufellsfoss (”Church Mountain Falls”) was a shot but very well-situated waterfall near the distinctive Kirkjufell mountain on the north side of the Snaefellsnes Peninsula.</p>
+                </li>
+                <li>
+                    <p class="visual_title">Snowmobile </p>
+                    <p class="visual_location">Vuokatti, Finland</p>
+                    <p class="visual_text">If you enjoy the speed, explore the winter Lakeland with a snowmobile guide safari. The experienced guide will guide you through frozen lakes and snow-covered forests, and take pictures of unforgettable memories during the tour.</p>
+                </li>
+            </ul>
+            <ul id="visual_dot_list">
+                <li><a href="#;"></a></li>
+                <li><a href="#;"></a></li>
+                <li><a href="#;"></a></li>
+                <li><a href="#;"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 비주얼영역 끝 -->
+    <!-- brand영역 시작 -->
+    <div id="brand_wrap">
+        <div id="brand_left_img"><img src="/images/brand_img01.jpg" alt=""></div>
+        <section id="brand_con">
+            <h2 class="con_title brand_title">THE BRANDS</h2>
+            <p id="brand_text">Since 1941,</br>The JEEP brand has been a symbol of freebom and capabilty.</br>Designed for peak perforance in rugged conditions.</br>JEEP branded products are created living life without limits.</p>
+            <p id="brand_btn"><a href="#;">MORE</a></p>
+        </section>
+        <div id="brand_right_img"><img src="/images/brand_img02.jpg" alt=""></div>
+    </div>
+    <!-- brand영역 끝 -->
+    <!-- video영역 시작 -->
+    <div id="video_wrap">
+        <video id="jeep_video" controls="controls" preload="auto" loop="loop" muted="muted" loop data-setup="{}" poster="poster.jpg">
+            <source src="video/jeep.mp4" type="video/mp4">
+            <source src="video/jeep.webm" type="video/webm">
+            <source src="video/jeep.ogv" type="video/ogv"> 
+        </video> 
+    </div>
+    <!-- video영역 끝 -->
+    <!-- product영역 시작 -->
+    <div id="product_wrap">
+        <section id="product_inner">
+            <h2 class="con_title product_title">NEW PRODUCT</h2>
+            <div id="product_con">
+                <p id="product_img"><img src="/images/product_img.jpg" alt=""></p>
+                <p id="product_text">The JXP tent is made up of high-performance products</br>that have been tested and good materials.</p>
+                <p id="product_btn"><a href="#;">MORE</a></p>
+            </div>
+            <ul id="product_list">
+                <li>
+                    <div class="product_list_img"><img src="/images/product_list_img01.png" alt=""></div>
+                    <div class="product_list_tbox">
+                        <p class="product_new">NEW</p>
+                        <p class="product_subname">Tent & Tarps</p>
+                        <p class="product_name">FULL SCREEN Ⅱ</p>
+                        <p class="product_price">$257.87</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="product_list_img"><img src="/images/product_list_img02.png" alt=""></div>
+                    <div class="product_list_tbox">
+                        <p class="product_new">NEW</p>
+                        <p class="product_subname">Furniture</p>
+                        <p class="product_name">HIGH RELAX CHAIR</p>
+                        <p class="product_price">$85.43</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="product_list_img"><img src="/images/product_list_img03.png" alt=""></div>
+                    <div class="product_list_tbox">
+                        <p class="product_new">NEW</p>
+                        <p class="product_subname">Accesories</p>
+                        <p class="product_name">SINK BAG</p>
+                        <p class="product_price">$30.19</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <!-- product영역 끝 -->
+    <!-- camping영역 시작 -->
+    <section id="camping_wrap">
+        <h2 class="con_title camping_title">JEEP CAMPING</h2>
+        <p id="camping_text">JXP demands a brave pioneering spirit that requires precise design and production. JXP was born to deliver the spirit to us. The JXP tent is made up of high-performance products that have been tested and good materials.</br></br>And by creating designs, you can beat that expectation.</br><b>Enjoy your adventure! Get more experience! Keep the truth of legend!</b></p>
+        <div id="camping_img"><img src="/images/camping_img.png" alt=""></div>
+    </section>
+    <!-- camping영역 끝 -->
+    <!-- sns영역 시작 -->
+    <div id="sns_wrap">
+        <section id="sns_inner">
+            <h2 class="hidden">jeep sns</h2>
+            <div id="sns_title_wrap">
+                <p class="sns_title">JEEPLIFE</p>
+                <p class="sns_title">JEEPCAMPING</p>
+                <p class="sns_title">Go Anywhere. Do Anything</p>
+            </div>
+            <ul id="sns_list">
+                <li><img src="/images/sns_img01.jpg" alt=""></li>
+                <li><img src="/images/sns_img02.jpg" alt=""></li>
+                <li><img src="/images/sns_img03.jpg" alt=""></li>
+                <li><img src="/images/sns_img04.jpg" alt=""></li>
+                <li><img src="/images/sns_img05.jpg" alt=""></li>
+            </ul>
+        </section>
+    </div>
+    <!-- sns영역 끝 -->
+    <!-- oursub영역 시작 -->
+    <div id="oursub_wrap">
+        <section id="oursub_inner">
+            <h2 class="con_title oursub_title">OUR SUBSIDIARY</h2>
+            <p id="oursub_text">For over 75 years the Jeep® Brand has been indelibly linked to freedom, adventure, authenticity and passion.</br>Our core values are embodied in every Jeep Brand vehicle’s DNA. Throughout our storied history, Jeep Brand vehicle owners have learned that Go Anywhere. Do Anything.® is a way of life, not just a slogan. The Jeep badge stands for more than a brand.</br>In truth, it’s a badge of honor. Explore our legendary lineup, then create your own timeless story.</p>
+            <ul id="oursub_list">
+                <li><a href="#">Jeep Life</a></li>
+                <li><a href="#">Jeep Luggage</a></li>
+                <li><a href="#">Jeep Vehicles</a></li>
+            </ul>
+        </section>
+    </div>
+    <!-- oursub영역 끝 -->
+    <!-- footer영역 시작 -->
+    <div id="footer_wrap">
+        <footer>
+            <h2 class="hidden">하단정보영역</h2>
+            <div id="footer_infor">
+                <ul id="footer_infor_list">
+                    <li><a href="#;">ABOUT JEEP</a></li>
+                    <li><a href="#;">Announcement</a></li>
+                    <li><a href="#;">Find Store</a></li>
+                    <li><a href="#;">Opening Store</a></li>
+                    <li><a href="#;">Customer Center</a></li>
+                </ul>
+                <p id="footer_logo"><img src="/images/footer_logo.gif" alt="지프캠핑"></p>
+                <p id="footer_text">Jeep, the Jeep grille and related logos, vehicle model names and trade dress are trademarks of FCA US LLC and used under license by HKD Korea Limited. ⓒ2015 FCA US LLC.</p>
+                <ul id="footer_sns_list">
+                    <li><a href="#;"><img src="/images/sns_icon00.gif" alt="페이스북바로가기"></a></li>
+                    <li><a href="#;"><img src="/images/sns_icon01.gif" alt="인스타그램바로가기"></a></li>
+                    <li><a href="#;"><img src="/images/sns_icon02.gif" alt="유튜브바로가기"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- footer영역 끝 -->
+</body>
+</html>
